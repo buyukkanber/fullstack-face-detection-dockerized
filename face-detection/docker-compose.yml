@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  # Frontend
+  face-detection:
+    container_name: frontend
+    build: ./
+    command: npm start
+    working_dir: /usr/src/face-detection
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/face-detection
+    # networks:
+    #   - proxynet
+
+# networks:
+#   proxynet:
+#     name: custom_network
