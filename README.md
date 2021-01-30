@@ -5,6 +5,7 @@ Fullstack dockerized web application.
 + Backend | Node, Express 
 + DB | PostgreSQL
 
+![Sample Image](https://github.com/buyukkanber/fullstack-face-detection-dockerized/blob/main/ss.jpg)
 
 ## Getting Started
 
