@@ -3,9 +3,9 @@ import React from 'react';
 const Rank = ({name, entries}) => {
 	return (
 		<div>
-			<div className='white f3'>
+			<div className='b white f3'>
 				{`Hello ${name} , You have detected faces`} 
-				<div className='white f1'>
+				<div className='b white f1'>
 					{entries}
 				</div>
 				{`times so far...`} 
